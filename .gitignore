@@ -1,0 +1,106 @@
+# ==============================================
+# LARIZINHA STORE - ARQUIVO GITIGNORE
+# ==============================================
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- AMBIENTE VIRTUAL ----------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------- ARQUIVOS DE CONFIGURAÇÃO SENSÍVEIS ----------
+.env
+.env.local
+.env.production
+.env.staging
+config_local.py
+settings_local.py
+
+# ---------- BANCO DE DADOS ----------
+*.db
+*.sqlite
+*.sqlite3
+database/backups/
+
+# ---------- LOGS ----------
+*.log
+logs/
+*.log.*
+
+# ---------- MÍDIA TEMPORÁRIA ----------
+media/
+temp/
+tmp/
+qrcodes/
+uploads/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# ---------- ARQUIVOS DO SISTEMA ----------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---------- CELERY ----------
+celerybeat-schedule
+celerybeat.pid
+
+# ---------- COBERTURA DE TESTES ----------
+.coverage
+.coverage.*
+htmlcov/
+.coverage_html/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ---------- DOCUMENTAÇÃO GERADA ----------
+docs/_build/
+site/
+
+# ---------- OUTROS ----------
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
